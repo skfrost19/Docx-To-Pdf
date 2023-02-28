@@ -1,65 +1,32 @@
-# docx-to-pdf README
-
-This is the README for your extension "docx-to-pdf". After writing up a brief description, we recommend including the following sections.
+# Docx To Pdf Extension for Visual Studio Code
+The Docx To Pdf Extension for Visual Studio Code allows you to convert Docx files into PDFs directly within the editor. With this extension, you no longer need to switch between multiple applications or install a separate conversion tool to convert your Docx files into PDFs.
 
 ## Features
+* Convert Docx files into PDFs directly within the editor
+* Easy installation and setup
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Usage
+To convert a Docx file, simply navigate to the file in your project directory right click on it and select the option "Convert Docx to PDF" from the context menu.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## How to Install
+* Launch Visual Studio Code.
+* Press Ctrl + Shift + X or Cmd + Shift + X to open the Extensions tab.
+* Search for "Docx To Pdf" and select it or follow <a href = "https://marketplace.visualstudio.com/items?itemName=ShahilKumar.docx-to-pdf"> this </a> link.  
+* Click "Install".  
+* After the installation is complete, restart Visual Studio Code.
 
 ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension requires Visual Studio Code version 1.60 or higher to be installed.
 
 ## Known Issues
+* Some complex formatting may not be supported
+* Changes to the document may not be saved in the original Docx format
+* The extension may not work properly with extremely large documents
+* Images may not be displayed properly
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Feedback and Contributions
+* Feedback, bug reports, and contributions are always welcome! 
+* If you have any suggestions or issues, please open a new issue on the <a href = "https://github.com/skfrost19/Docx-To-Pdf"> GitHub</a> repository or submit a pull request.
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## License
+This extension is licensed under the <a href = "LICENSE.txt"> MIT </a> License.

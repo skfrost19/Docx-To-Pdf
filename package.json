@@ -15,9 +15,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:docx-to-pdf.helloWorld"
-  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
