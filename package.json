@@ -1,0 +1,60 @@
+{
+  "name": "docx-to-pdf",
+  "displayName": "Docx To Pdf",
+  "publisher": "ShahilKumar",
+  "description": "A VSCode extension which converts Docx file to PDF",
+  "icon": "assets/icons/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skfrost19/Docx-To-Pdf"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:docx-to-pdf.helloWorld"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "docx-to-pdf.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "docx-to-pdf.convert",
+        "title": "Convert Docx to PDF"
+      }
+    ],
+    "menus" :{
+      "explorer/context": [
+        {
+          "command": "docx-to-pdf.convert",
+          "when": "resourceExtname == .docx"
+        }]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.75.0",
+    "@vscode/test-electron": "^2.2.2",
+    "eslint": "^8.33.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "docx-pdf": "^0.0.1"
+  }
+}
