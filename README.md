@@ -8,6 +8,8 @@ The Docx To Pdf Extension for Visual Studio Code allows you to convert Docx file
 ## Usage
 To convert a Docx file, simply navigate to the file in your project directory right click on it and select the option "Convert Docx to PDF" from the context menu.
 
+![](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjZmMmFmYzc0ZGU0OGYxMDFkZTFiMjlhYmZlY2IwMDQwZTM0ZmMxYyZjdD1n/ozSqxSPPAFx1SYIpbf/giphy.gif)
+
 ## How to Install
 * Launch Visual Studio Code.
 * Press Ctrl + Shift + X or Cmd + Shift + X to open the Extensions tab.
